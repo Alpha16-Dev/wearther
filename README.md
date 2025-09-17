@@ -116,7 +116,6 @@ wearther/
 MIT — feel free to fork and adapt.
 
 
-
 [1]: https://docs.streamlit.io/deploy/streamlit-community-cloud "Streamlit Community Cloud"
 [2]: https://docs.streamlit.io/get-started/installation "Install Streamlit"
 [3]: https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app "Prep and deploy your app on Community Cloud"
