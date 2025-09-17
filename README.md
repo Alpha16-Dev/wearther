@@ -113,7 +113,7 @@ wearther/
 
 ## 📜 License
 
-MIT — feel free to fork and adapt.
+MIT, feel free to fork and adapt.
 
 
 [1]: https://docs.streamlit.io/deploy/streamlit-community-cloud "Streamlit Community Cloud"
