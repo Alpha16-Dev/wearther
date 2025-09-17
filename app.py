@@ -10,7 +10,7 @@ st.write("Type a city, get the 7-day forecast, and smart outfit suggestions.")
 # --- Helpers ---
 GEO_URL = "https://geocoding-api.open-meteo.com/v1/search"
 WX_URL = "https://api.open-meteo.com/v1/forecast"
-# test
+
 def geocode_city(city: str):
     """Use Open-Meteo Geocoding to turn a city name into lat/lon."""
     r = requests.get(GEO_URL, params={"name": city, "count": 1, "language": "en", "format": "json"}, timeout=10)
@@ -63,7 +63,7 @@ def outfit_advice(tmax, tmin, precip, wind):
     elif avg >= 8:
         layers.append("🧥 Jacket + jeans")
     else:
-        layers.append("🧥 Heavy coat, layers")
+        layers.append("🧥❄ Heavy coat, layers")
 
     if (precip or 0) >= 5:
         layers.append("🌂 Umbrella/rain jacket")
