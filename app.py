@@ -55,7 +55,7 @@ def outfit_advice(tmax, tmin, precip, wind):
     if avg is None:
         return "👕 Dress comfortably."
     if avg >= 28:
-        layers.append("🩳 T-shirt & shorts")
+        layers.append("🩳👙 T-shirt & shorts")
     elif avg >= 22:
         layers.append("👕 Light shirt")
     elif avg >= 16:
@@ -63,7 +63,7 @@ def outfit_advice(tmax, tmin, precip, wind):
     elif avg >= 8:
         layers.append("🧥 Jacket + jeans")
     else:
-        layers.append("🧥❄ Heavy coat, layers")
+        layers.append("🧥 Heavy coat, layers")
 
     if (precip or 0) >= 5:
         layers.append("🌂 Umbrella/rain jacket")
