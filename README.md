@@ -1,12 +1,12 @@
 
-````markdown
+
 # 🧥 Wearther — Weather + Wardrobe Planner
 
 A simple, fast weather & outfit-suggestion app:
 - Type a city → get a 7-day forecast → see friendly outfit tips (layers, rain gear, windbreaker).
 - Built with **Python + Streamlit** and the **Open-Meteo** APIs (no API key needed).
 
-**Live app:** _add your Streamlit URL here after deploy_  
+**Live app:** https://wearther-alpha.streamlit.app/  
 **Repo:** https://github.com/Alpha16-Dev/wearther
 
 ---
@@ -37,7 +37,7 @@ A simple, fast weather & outfit-suggestion app:
    ```bash
    git clone https://github.com/Alpha16-Dev/wearther.git
    cd wearther
-````
+
 
 2. **Create & activate venv** (Windows):
 
@@ -115,17 +115,11 @@ wearther/
 
 MIT — feel free to fork and adapt.
 
-```
 
----
 
-If you want, send me the **Streamlit app URL** after you deploy and I’ll drop it into the README in the right spot and push a quick commit message you can paste.
-::contentReference[oaicite:10]{index=10}
-```
-
-[1]: https://docs.streamlit.io/deploy/streamlit-community-cloud?utm_source=chatgpt.com "Streamlit Community Cloud"
-[2]: https://docs.streamlit.io/get-started/installation?utm_source=chatgpt.com "Install Streamlit"
-[3]: https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app?utm_source=chatgpt.com "Prep and deploy your app on Community Cloud"
-[4]: https://open-meteo.com/en/docs/geocoding-api?utm_source=chatgpt.com "Geocoding API | Open-Meteo.com"
-[5]: https://open-meteo.com/en/docs?utm_source=chatgpt.com "Weather Forecast API - Open-Meteo.com"
-[6]: https://open-meteo.com/?utm_source=chatgpt.com "Open-Meteo.com: 🌤️ Free Open-Source Weather API"
+[1]: https://docs.streamlit.io/deploy/streamlit-community-cloud "Streamlit Community Cloud"
+[2]: https://docs.streamlit.io/get-started/installation "Install Streamlit"
+[3]: https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app "Prep and deploy your app on Community Cloud"
+[4]: https://open-meteo.com/en/docs/geocoding-api "Geocoding API | Open-Meteo.com"
+[5]: https://open-meteo.com/en/docs "Weather Forecast API - Open-Meteo.com"
+[6]: https://open-meteo.com/ "Open-Meteo.com: 🌤️ Free Open-Source Weather API"
